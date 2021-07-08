@@ -22,7 +22,7 @@ const tasks = {
 
     autoReplace: (array, changeWord, text) => {
 
-        let replaceFn = () => {
+        const replaceFn = () => {
 
             array.map(element => {
 
@@ -44,9 +44,9 @@ const tasks = {
 
     genitive: (n, word) => {
 
-        let genitiveFn = () => {
+        const genitiveFn = () => {
 
-            let words = {
+            const words = {
 
                 singular: word,
 
@@ -70,7 +70,7 @@ const tasks = {
 
     lorem: (n) => {
 
-        let text = "sdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdfgdfgdfgjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgd";
+        const text = "sdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdfgdfgdfgjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgdjfhjbvddfdfdsshjdfsdfhdghdfgfdgdfgfdgd";
 
         let slicedText = '';
 
@@ -106,4 +106,4 @@ const tasks = {
 
 };
 
-console.log(tasks.genitive(2,"курс"));
+console.log(tasks);
